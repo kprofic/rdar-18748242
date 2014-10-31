@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAD86241A0383FD002E64FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD86231A0383FD002E64FF /* main.m */; };
+		AFAD86271A0383FD002E64FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD86261A0383FD002E64FF /* AppDelegate.m */; };
+		AFAD862A1A0383FD002E64FF /* StoryboardBasedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD86291A0383FD002E64FF /* StoryboardBasedVC.m */; };
+		AFAD862D1A0383FD002E64FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD862B1A0383FD002E64FF /* Main.storyboard */; };
+		AFAD862F1A0383FD002E64FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAD862E1A0383FD002E64FF /* Images.xcassets */; };
+		AFAD86321A0383FD002E64FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAD86301A0383FD002E64FF /* LaunchScreen.xib */; };
+		AFAD863E1A0383FD002E64FF /* rdar_18748242Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD863D1A0383FD002E64FF /* rdar_18748242Tests.m */; };
+		AFAD86491A03845A002E64FF /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD86481A03845A002E64FF /* MyObject.m */; };
+		AFAD864D1A038581002E64FF /* XibBasedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD864B1A038581002E64FF /* XibBasedVC.m */; };
+		AFAD864E1A038581002E64FF /* XibBasedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAD864C1A038581002E64FF /* XibBasedVC.xib */; };
+		AFAD86511A038984002E64FF /* XibUnarchivedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD86501A038984002E64FF /* XibUnarchivedVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAD86381A0383FD002E64FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAD86161A0383FD002E64FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAD861D1A0383FD002E64FF;
+			remoteInfo = "rdar-18748242";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFAD861E1A0383FD002E64FF /* rdar-18748242.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rdar-18748242.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD86221A0383FD002E64FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAD86231A0383FD002E64FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFAD86251A0383FD002E64FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFAD86261A0383FD002E64FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFAD86281A0383FD002E64FF /* StoryboardBasedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardBasedVC.h; sourceTree = "<group>"; };
+		AFAD86291A0383FD002E64FF /* StoryboardBasedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardBasedVC.m; sourceTree = "<group>"; };
+		AFAD862C1A0383FD002E64FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAD862E1A0383FD002E64FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFAD86311A0383FD002E64FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFAD86371A0383FD002E64FF /* rdar-18748242Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rdar-18748242Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD863C1A0383FD002E64FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAD863D1A0383FD002E64FF /* rdar_18748242Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rdar_18748242Tests.m; sourceTree = "<group>"; };
+		AFAD86471A03845A002E64FF /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		AFAD86481A03845A002E64FF /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		AFAD864A1A038581002E64FF /* XibBasedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibBasedVC.h; sourceTree = "<group>"; };
+		AFAD864B1A038581002E64FF /* XibBasedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibBasedVC.m; sourceTree = "<group>"; };
+		AFAD864C1A038581002E64FF /* XibBasedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibBasedVC.xib; sourceTree = "<group>"; };
+		AFAD864F1A038984002E64FF /* XibUnarchivedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibUnarchivedVC.h; sourceTree = "<group>"; };
+		AFAD86501A038984002E64FF /* XibUnarchivedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibUnarchivedVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAD861B1A0383FD002E64FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD86341A0383FD002E64FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAD86151A0383FD002E64FF = {
+			isa = PBXGroup;
+			children = (
+				AFAD86201A0383FD002E64FF /* rdar-18748242 */,
+				AFAD863A1A0383FD002E64FF /* rdar-18748242Tests */,
+				AFAD861F1A0383FD002E64FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAD861F1A0383FD002E64FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD861E1A0383FD002E64FF /* rdar-18748242.app */,
+				AFAD86371A0383FD002E64FF /* rdar-18748242Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAD86201A0383FD002E64FF /* rdar-18748242 */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD86251A0383FD002E64FF /* AppDelegate.h */,
+				AFAD86261A0383FD002E64FF /* AppDelegate.m */,
+				AFAD86281A0383FD002E64FF /* StoryboardBasedVC.h */,
+				AFAD86291A0383FD002E64FF /* StoryboardBasedVC.m */,
+				AFAD864A1A038581002E64FF /* XibBasedVC.h */,
+				AFAD864B1A038581002E64FF /* XibBasedVC.m */,
+				AFAD864F1A038984002E64FF /* XibUnarchivedVC.h */,
+				AFAD86501A038984002E64FF /* XibUnarchivedVC.m */,
+				AFAD864C1A038581002E64FF /* XibBasedVC.xib */,
+				AFAD862B1A0383FD002E64FF /* Main.storyboard */,
+				AFAD862E1A0383FD002E64FF /* Images.xcassets */,
+				AFAD86301A0383FD002E64FF /* LaunchScreen.xib */,
+				AFAD86211A0383FD002E64FF /* Supporting Files */,
+				AFAD86471A03845A002E64FF /* MyObject.h */,
+				AFAD86481A03845A002E64FF /* MyObject.m */,
+			);
+			path = "rdar-18748242";
+			sourceTree = "<group>";
+		};
+		AFAD86211A0383FD002E64FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD86221A0383FD002E64FF /* Info.plist */,
+				AFAD86231A0383FD002E64FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFAD863A1A0383FD002E64FF /* rdar-18748242Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD863D1A0383FD002E64FF /* rdar_18748242Tests.m */,
+				AFAD863B1A0383FD002E64FF /* Supporting Files */,
+			);
+			path = "rdar-18748242Tests";
+			sourceTree = "<group>";
+		};
+		AFAD863B1A0383FD002E64FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD863C1A0383FD002E64FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAD861D1A0383FD002E64FF /* rdar-18748242 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD86411A0383FD002E64FF /* Build configuration list for PBXNativeTarget "rdar-18748242" */;
+			buildPhases = (
+				AFAD861A1A0383FD002E64FF /* Sources */,
+				AFAD861B1A0383FD002E64FF /* Frameworks */,
+				AFAD861C1A0383FD002E64FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rdar-18748242";
+			productName = "rdar-18748242";
+			productReference = AFAD861E1A0383FD002E64FF /* rdar-18748242.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAD86361A0383FD002E64FF /* rdar-18748242Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD86441A0383FD002E64FF /* Build configuration list for PBXNativeTarget "rdar-18748242Tests" */;
+			buildPhases = (
+				AFAD86331A0383FD002E64FF /* Sources */,
+				AFAD86341A0383FD002E64FF /* Frameworks */,
+				AFAD86351A0383FD002E64FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAD86391A0383FD002E64FF /* PBXTargetDependency */,
+			);
+			name = "rdar-18748242Tests";
+			productName = "rdar-18748242Tests";
+			productReference = AFAD86371A0383FD002E64FF /* rdar-18748242Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAD86161A0383FD002E64FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Trifork;
+				TargetAttributes = {
+					AFAD861D1A0383FD002E64FF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AFAD86361A0383FD002E64FF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AFAD861D1A0383FD002E64FF;
+					};
+				};
+			};
+			buildConfigurationList = AFAD86191A0383FD002E64FF /* Build configuration list for PBXProject "rdar-18748242" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAD86151A0383FD002E64FF;
+			productRefGroup = AFAD861F1A0383FD002E64FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAD861D1A0383FD002E64FF /* rdar-18748242 */,
+				AFAD86361A0383FD002E64FF /* rdar-18748242Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAD861C1A0383FD002E64FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD862D1A0383FD002E64FF /* Main.storyboard in Resources */,
+				AFAD86321A0383FD002E64FF /* LaunchScreen.xib in Resources */,
+				AFAD864E1A038581002E64FF /* XibBasedVC.xib in Resources */,
+				AFAD862F1A0383FD002E64FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD86351A0383FD002E64FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAD861A1A0383FD002E64FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD862A1A0383FD002E64FF /* StoryboardBasedVC.m in Sources */,
+				AFAD86271A0383FD002E64FF /* AppDelegate.m in Sources */,
+				AFAD86491A03845A002E64FF /* MyObject.m in Sources */,
+				AFAD86241A0383FD002E64FF /* main.m in Sources */,
+				AFAD864D1A038581002E64FF /* XibBasedVC.m in Sources */,
+				AFAD86511A038984002E64FF /* XibUnarchivedVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD86331A0383FD002E64FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD863E1A0383FD002E64FF /* rdar_18748242Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAD86391A0383FD002E64FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAD861D1A0383FD002E64FF /* rdar-18748242 */;
+			targetProxy = AFAD86381A0383FD002E64FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAD862B1A0383FD002E64FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD862C1A0383FD002E64FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAD86301A0383FD002E64FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD86311A0383FD002E64FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAD863F1A0383FD002E64FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AFAD86401A0383FD002E64FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAD86421A0383FD002E64FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rdar-18748242/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFAD86431A0383FD002E64FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rdar-18748242/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFAD86451A0383FD002E64FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rdar-18748242Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rdar-18748242.app/rdar-18748242";
+			};
+			name = Debug;
+		};
+		AFAD86461A0383FD002E64FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rdar-18748242Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rdar-18748242.app/rdar-18748242";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAD86191A0383FD002E64FF /* Build configuration list for PBXProject "rdar-18748242" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD863F1A0383FD002E64FF /* Debug */,
+				AFAD86401A0383FD002E64FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD86411A0383FD002E64FF /* Build configuration list for PBXNativeTarget "rdar-18748242" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD86421A0383FD002E64FF /* Debug */,
+				AFAD86431A0383FD002E64FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFAD86441A0383FD002E64FF /* Build configuration list for PBXNativeTarget "rdar-18748242Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD86451A0383FD002E64FF /* Debug */,
+				AFAD86461A0383FD002E64FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAD86161A0383FD002E64FF /* Project object */;
+}

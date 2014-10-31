@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibBasedVC">
+            <connections>
+                <outlet property="nibObjectOutlet" destination="LRd-bh-RcI" id="hra-CN-yS8"/>
+                <outlet property="nibUnarchovedVC" destination="yvR-qK-4JG" id="uxg-NI-tM2"/>
+                <outlet property="someOutlet" destination="uYj-jL-Atx" id="bx3-GX-Tus"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xib based View Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYj-jL-Atx">
+                    <rect key="frame" x="202" y="62" width="196" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+        <customObject id="LRd-bh-RcI" customClass="MyObject">
+            <connections>
+                <outlet property="someOutlet" destination="uYj-jL-Atx" id="JuI-nx-vHo"/>
+            </connections>
+        </customObject>
+        <viewController id="yvR-qK-4JG" customClass="XibUnarchivedVC">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="LIo-pa-TMp"/>
+                <viewControllerLayoutGuide type="bottom" id="X28-f6-ZgN"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="EiS-5M-ZZN">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Xib Unarchoved View Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhX-TH-NWO">
+                        <rect key="frame" x="181" y="225" width="243" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <connections>
+                <outlet property="someOutlet" destination="nhX-TH-NWO" id="CJP-dP-vrx"/>
+                <outlet property="xibObjectOutlet" destination="LRd-bh-RcI" id="Ajk-I9-jf7"/>
+            </connections>
+        </viewController>
+    </objects>
+</document>
